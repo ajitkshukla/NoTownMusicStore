@@ -1,0 +1,12 @@
+﻿@model List<Song>
+@{
+    Layout = null;
+}
+
+@foreach(var song in Model) {
+    <h3>@song.Title</h3>
+    <p>Author: @song.Author</p>
+    <p>Album: @song.Id</p>
+    
+    
+}

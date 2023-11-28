@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NoTownMusicalStore
+build_property.RootNamespace = NoTownMusicalStore
+build_property.ProjectDir = C:\Users\jacks\OneDrive - Southern Illinois University\Courses\Database Systems\NoTownMusicalStore\NoTownMusicalStore\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\jacks\OneDrive - Southern Illinois University\Courses\Database Systems\NoTownMusicalStore\NoTownMusicalStore
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/Admin/AddAlbum.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkQWxidW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/Admin/AddMusician.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkTXVzaWNpYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/Admin/AddSong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkU29uZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/Album/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/Album/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/Album/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cR2V0QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/Home/SongDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb25nRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/Musician/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNpYW5cQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/Musician/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNpYW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/Musician/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNpYW5cR2V0QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/MusicStore/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNTdG9yZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/Song/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ1xBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/Song/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/Song/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ1xHZXRBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/UserAuthentication/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1dGhlbnRpY2F0aW9uXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jacks/OneDrive - Southern Illinois University/Courses/Database Systems/NoTownMusicalStore/NoTownMusicalStore/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tiruozid9t

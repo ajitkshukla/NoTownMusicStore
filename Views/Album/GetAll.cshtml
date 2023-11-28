@@ -1,0 +1,31 @@
+﻿@model IEnumerable<NoTownMusicalStore.Models.Entities.Album>
+@{
+}
+
+<div class="tbl-container">
+    <h2>Albums</h2>
+
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Copyright Date</th>
+            <th>Speed</th>            
+            <th>Action</th>
+        </tr>
+        @foreach(var item in Model){
+        <tr>
+            <td>@item.Title</td>
+            <td>@item.CopyrightDate</td>
+            <td>@item.Speed</td>            
+            <td>
+                <a href="/Album/Edit?id=@item.Id" class="btn btn-default"><i class="fa fa-edit"></i></a>
+                <a onclick="return window.confirm('Are you sure you want to delete @item.Title?')" href="/Album/Delete?id=@item.Id" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+            </td>
+        </tr>
+        }
+     
+    </table>
+    <div class="input-container">
+        <a href="/Album/Add" class="btn btn-sec">Back</a>
+    </div>
+</div>

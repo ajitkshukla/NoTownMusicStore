@@ -1,0 +1,36 @@
+﻿@model NoTownMusicalStore.Models.Entities.Musician
+
+<form class="w-40" asp-action="Add" method="post">
+    <h2 class="pb-10">Add Musician</h2>
+    <div class="input-container">
+        <label asp-for="Name" class="w-40">Musician Name</label>
+        <input type="text" class="input" asp-for="Name">
+    </div>
+    <div class="input-container">
+        <label asp-for="SSN" class="w-40">Musician SSN</label>
+        <input type="text" class="input" asp-for="SSN">
+    </div>
+    <div class="input-container">
+        <label asp-for="PhoneNumber" class="w-40">Phone Number</label>
+        <input type="text" class="input" asp-for="PhoneNumber">
+    </div>
+    <div class="input-container">
+        <label asp-for="Address" class="w-40">Address</label>
+        <input type="text" class="input" asp-for="Address">
+    </div>
+    <div class="message-box pd-x-28 error">
+        <span asp-validation-for="Name"> </span>
+    </div>
+
+    @if (TempData["msg"] != null)
+    {
+        <div class="alert mb-1">
+            @TempData["msg"]
+        </div>
+    }
+
+    <div class="input-container">
+        <button class="btn btn-default" type="submit">Save</button>
+        <a class="btn btn-sec" href="/Musician/GetAll">All records</a>
+    </div>
+</form>

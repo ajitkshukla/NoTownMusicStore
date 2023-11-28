@@ -1,0 +1,36 @@
+﻿@model NoTownMusicalStore.Models.DTO.SongListViewModel
+@{
+}
+
+<div class="tbl-container">
+    <h2>Songs</h2>
+
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Image</th>
+            <th>Album</th>
+            <th>Musicians</th>
+            <th>Action</th>
+        </tr>
+        @foreach(var item in Model.SongList){
+        <tr>
+            <td>@item.Title</td>
+            <td>@item.Author</td>
+                <td><img style="height:60px;width:80px" src="/Uploads/@item.SongImage" /></td>
+            <td>@item.Album</td>
+            <td>@item.Musicians</td>
+
+            <td>
+                <a href="/Song/Edit?id=@item.Id" class="btn btn-default"><i class="fa fa-edit"></i></a>
+                <a onclick="return window.confirm('Are you sure you want to delete @item.Title?')" href="/Song/Delete?id=@item.Id" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+            </td>
+        </tr>
+        }
+     
+    </table>
+    <div class="input-container">
+        <a href="/Song/Add" class="btn btn-sec">Back</a>
+    </div>
+</div>

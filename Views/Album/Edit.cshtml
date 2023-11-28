@@ -1,0 +1,42 @@
+﻿@model NoTownMusicalStore.Models.Entities.Album
+
+
+<form class="w-40" asp-action="Update" method="post">
+    <h2 class="pb-10">Update Album</h2>
+    <input type="hidden" class="input" asp-for="Id">
+
+    <div class="input-container">
+        <label asp-for="Title" class="w-40">Title</label>
+        <input type="text" class="input" asp-for="Title">
+    </div>
+    <div class="input-container">
+        <label asp-for="CopyrightDate" class="w-40">Copyright Date</label>
+        <input type="text" class="input" asp-for="CopyrightDate">
+    </div>
+    <div class="input-container">
+        <label asp-for="Speed" class="w-40">Speed</label>
+        <input type="text" class="input" asp-for="Speed">
+    </div>
+
+    <div class="message-box pd-x-28 error">
+        <span asp-validation-for="Title"> </span>
+    </div>
+    <div class="message-box pd-x-28 error">
+        <span asp-validation-for="CopyrightDate"> </span>
+    </div>
+    <div class="message-box pd-x-28 error">
+        <span asp-validation-for="Speed"> </span>
+    </div>
+
+    @if (TempData["msg"] != null)
+    {
+        <div class="alert mb-1">
+            @TempData["msg"]
+        </div>
+    }
+
+    <div class="input-container">
+        <button class="btn btn-default" type="submit">Save</button>
+        <a class="btn btn-sec" href="/Genre/GenreList">All records</a>
+    </div>
+</form>

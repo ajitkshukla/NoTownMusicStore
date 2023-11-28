@@ -1,0 +1,33 @@
+﻿@model IEnumerable<NoTownMusicalStore.Models.Entities.Musician>
+@{
+}
+
+<div class="tbl-container">
+    <h2>Musicians</h2>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>SSN</th>
+            <th>Address</th>
+            <th>Phone number</th>
+            <th>Action</th>
+        </tr>
+        @foreach(var item in Model){
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.SSN</td>
+            <td>@item.Address</td>
+            <td>@item.PhoneNumber</td>
+            <td>
+                <a href="/Musician/Edit?id=@item.SSN" class="btn btn-default"><i class="fa fa-edit"></i></a>
+                <a onclick="return window.confirm('Are you sure you want to delete @item.Name?')" href="/Musician/Delete?id=@item.SSN" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+            </td>
+        </tr>
+        }
+     
+    </table>
+    <div class="input-container">
+        <a href="/Musician/Add" class="btn btn-sec">Back</a>
+    </div>
+</div>

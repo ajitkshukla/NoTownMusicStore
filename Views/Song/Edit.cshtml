@@ -1,0 +1,51 @@
+﻿@model NoTownMusicalStore.Models.Entities.Song
+
+
+<form class="w-40" asp-action="Update" method="post">
+    <h2 class="pb-10">Update Song</h2>
+    <input type="hidden" class="input" asp-for="Id">
+
+    <div class="input-container">
+        <label asp-for="Title" class="w-40">Title</label>
+        <input type="text" class="input" asp-for="Title">
+    </div>
+    <div class="message-box pd-x-28 error">
+        <span asp-validation-for="Title"> </span>
+    </div>
+
+    <div class="input-container">
+        <label asp-for="Author" class="w-40">Author</label>
+        <input type="text" class="input" asp-for="Author">
+    </div>   
+    <div class="message-box pd-x-28 error">
+        <span asp-validation-for="Author"> </span>
+    </div>
+
+    <div class="input-container">
+        <label asp-for="Album" class="w-40">Album</label>
+        <input type="text" class="input" asp-for="Album">
+    </div>
+    <div class="message-box pd-x-28 error">
+        <span asp-validation-for="Album"> </span>
+    </div>
+
+    <div class="input-container">
+        <label asp-for="Musicians" class="w-40">Musicians</label>
+        <input type="text" class="input" asp-for="Musicians">
+    </div>
+    <div class="message-box pd-x-28 error">
+        <span asp-validation-for="Musicians"> </span>
+    </div>
+    
+    @if (TempData["msg"] != null)
+    {
+        <div class="alert mb-1">
+            @TempData["msg"]
+        </div>
+    }
+
+    <div class="input-container">
+        <button class="btn btn-default" type="submit">Save</button>
+        <a class="btn btn-sec" href="/Song/GetAll">All records</a>
+    </div>
+</form>
